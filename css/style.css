@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=REM:wght@500&family=Roboto&display=swap");
 
 body {
   font-family: Roboto;
@@ -17,6 +17,8 @@ h6 {
 
 a {
   color: blue;
+  text-decoration: none;
+  transition: all 0.4s ease;
 }
 
 img {
@@ -26,4 +28,44 @@ img {
 /* top-navbar */
 .top-nav {
   background-color: blue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.top-nav p {
+  margin-bottom: 0;
+  display: inline-block;
+  margin-right: 16px;
+  color: white;
+}
+.top-nav i,
+.top-nav span {
+  vertical-align: middle;
+}
+
+.social-links a {
+  text-decoration: none;
+
+  width: 34px;
+  height: 34px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 100%;
+}
+
+.social-links a:hover {
+  background-color: white;
+  color: blue;
+}
+
+/* header */
+.navbar {
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+#logo-name {
+  font-family: REM;
 }
