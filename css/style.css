@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=REM:wght@500&family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Vithkuqi:wght@500&family=Poppins:wght@500&display=swap");
 
 body {
   font-family: Roboto;
   line-height: 1.7;
-  color: blue;
+  color: #4e4feb;
 }
 
 h1,
@@ -17,7 +17,7 @@ h6 {
 }
 
 a {
-  color: blue;
+  color: #4e4feb;
   text-decoration: none;
   transition: all 0.4s ease;
   font-weight: 500;
@@ -27,9 +27,15 @@ img {
   width: 100%;
 }
 
+.bg-cover {
+  background-position: center !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
 /* top-navbar */
 .top-nav {
-  background-color: blue;
+  background-color: #4e4feb;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -61,7 +67,7 @@ img {
 
 .social-links a:hover {
   background-color: white;
-  color: blue;
+  color: #4e4feb;
 }
 
 /* header */
@@ -78,9 +84,9 @@ img {
   font-weight: 1000;
 }
 #contact-btn {
-  background-color: blue;
+  background-color: #4e4feb;
   color: white;
-  border-color: blue;
+  border-color: #4e4feb;
 }
 #contact-btn:hover {
   background-color: rgb(2, 2, 49);
@@ -88,5 +94,21 @@ img {
 }
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link:active {
-  color: blue;
+  color: #4e4feb;
+}
+
+/* SLIDER */
+.slider-wrapper {
+  font-family: Roboto;
+}
+.slide1 {
+  background-image: linear-gradient(
+      rgba(17, 47, 221, 0.226),
+      rgba(155, 167, 231, 0.096)
+    ),
+    url(../img/bg_banner1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center top 100px; /* Adjust the background-position */
+  height: 100vh;
 }
