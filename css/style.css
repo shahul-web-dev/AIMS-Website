@@ -51,9 +51,8 @@ section {
 }
 .top-navbar i,
 span {
-    
-font-size: 18px;
-    color: #fff;
+  font-size: 18px;
+  color: #fff;
   vertical-align: middle;
 }
 .social-link a {
@@ -69,8 +68,8 @@ font-size: 18px;
   margin-right: 10px;
 }
 .social-link a:hover {
-  color: #6528f7;
-  background-color: #ffffff;
+  color: #04010e !important;
+  background-color: #4e4dad;
 }
 
 /* HEADER */
@@ -117,7 +116,7 @@ font-size: 18px;
 .slide-1 {
   background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.3)),
     url(../images/aims\ bg-3.jpg);
-    background-position: bottom !important;
+  background-position: bottom !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,7 +124,7 @@ font-size: 18px;
 .slide-2 {
   background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.3)),
     url(../images/aims\ bg.jpg);
-    background-position: top !important;
+  background-position: top !important;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -134,7 +133,7 @@ font-size: 18px;
 .slide-3 {
   background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.3)),
     url(../images/amis\ bg-4.JPG);
-    background-position: center !important;
+  background-position: center !important;
   display: flex;
   justify-content: center;
   align-items: center;
