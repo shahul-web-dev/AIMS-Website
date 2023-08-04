@@ -32,8 +32,8 @@ $(document).ready(function () {
         items: 1,
       },
       760: {
-        items: 1,
-        // center:true,
+        items: 2,
+        center:true,
       },
       900: {
         items: 2,

@@ -226,6 +226,11 @@ span {
 .servies-box h4 {
   margin-bottom: 20px;
 }
+@media (min-width:768px) and (max-width:1200px){
+  .servies-box {
+    height: 520px;
+  }
+}
 
 /* Project Slider */
 #profile {
@@ -233,14 +238,15 @@ span {
 }
 .owl-carousel .owl-item img {
   display: block;
-  height: 400px;
-  width: 480px;
+  height: 315px;
+  width: 420px;
   margin: 0px;
   width: 100%;
-}
-.project {
   position: relative;
 }
+/* .project {
+  position: relative;
+} */
 .project .overlay {
   position: absolute;
   left: 0;
