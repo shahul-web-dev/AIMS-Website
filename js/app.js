@@ -43,6 +43,10 @@ $(document).ready(function () {
         items: 2,
         center: true,
       },
+      1200:{
+        items:3,
+        center: true,
+      }
     },
   });
 

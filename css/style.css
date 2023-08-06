@@ -239,16 +239,13 @@ span {
 .owl-carousel .owl-item img {
   display: block;
   height: 315px;
-  width: 420px;
+  width: 520px;
   margin: 0px;
   width: 100%;
-  position: relative;
+  position: relative !important;
 }
-/* .project {
-  position: relative;
-} */
 .project .overlay {
-  position: absolute;
+  position: absolute !important;
   left: 0;
   right: 0;
   bottom: 0;
