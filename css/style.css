@@ -214,6 +214,7 @@ span {
   padding: 30px;
   margin-bottom: 20px;
   height: 450px;
+  border-radius: 30px 0px;
 }
 .servies-box-1 {
   margin-bottom: 0px;
@@ -395,8 +396,11 @@ h6 {
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   padding: 0px;
   position: relative;
+  margin-bottom: 30px;
+  border-radius: 10px;
 }
 .blog-1 img {
+  border-radius: 10px 10px 0px 0px;
   width: 100%;
 }
 .bolg-contact {
@@ -435,12 +439,27 @@ h6 {
 .hr {
   color: #fff;
 }
+.text-contant .social-link a{
+  margin: auto;
+  text-align: center;
+  margin-right: 10px;
+}
+
 .copyright {
   text-align: center;
   color: #fff;
   padding-bottom: 20px;
 }
-
+@media (max-width:428px){
+  .text-contant{
+    width: 100%;
+    padding: 0px 20px;
+  }
+  .text-contant .social-link a{
+    margin-right: 10px;
+  } 
+  
+}
 /* contact box*/
 
 .contact-image {
