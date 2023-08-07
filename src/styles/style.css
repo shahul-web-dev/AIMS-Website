@@ -123,7 +123,7 @@ span {
 }
 .slide-2 {
   background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.3)),
-    url(/src/assets/images/aims\ bg.jpg);
+    url(../assets/images/Banner_2.jpg);
   background-position: top !important;
   display: flex;
   justify-content: center;
