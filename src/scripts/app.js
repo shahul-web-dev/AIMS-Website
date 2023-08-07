@@ -10,8 +10,8 @@ $(document).ready(function () {
     navText: ["PREV", "NEXT"],
     responsive: {
       0: {
-            nav: false,
-          dots:true,
+        nav: false,
+        dots: true,
       },
       760: {
         nav: true,
@@ -31,13 +31,13 @@ $(document).ready(function () {
       0: {
         items: 1,
       },
-      600:{
-        items:2,
-        center:true,
+      600: {
+        items: 2,
+        center: true,
       },
       760: {
         items: 2,
-        center:true,
+        center: true,
       },
       900: {
         items: 2,
@@ -47,11 +47,11 @@ $(document).ready(function () {
         items: 2,
         center: true,
       },
-      1200:{
-        items:3,
+      1200: {
+        items: 3,
         center: true,
-        margin:20,
-      }
+        margin: 20,
+      },
     },
   });
 
