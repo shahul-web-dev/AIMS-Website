@@ -115,7 +115,7 @@ span {
 /* Slider */
 .slide-1 {
   background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.3)),
-    url(../images/aims\ bg-3.jpg);
+    url(/src/assets/images/aims\ bg-3.jpg);
   background-position: bottom !important;
   display: flex;
   justify-content: center;
@@ -123,7 +123,7 @@ span {
 }
 .slide-2 {
   background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.3)),
-    url(../images/aims\ bg.jpg);
+    url(/src/assets/images/aims\ bg.jpg);
   background-position: top !important;
   display: flex;
   justify-content: center;
@@ -132,13 +132,22 @@ span {
 }
 .slide-3 {
   background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.3)),
-    url(../images/amis\ bg-4.JPG);
+    url(/src/assets/images/amis\ bg-4.JPG);
   background-position: center !important;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+@media (max-width:990px){
+  .slide-1{
+    background-position:  right !important;
+  }
+  .slide-2{
+    align-items: center;
+  }
+}
+
 
 /* OWL carousel */
 .owl-prev,
@@ -180,7 +189,7 @@ span {
 /* milestone */
 #milestone {
   background: linear-gradient(rgba(41, 127, 185, 0.5), rgba(41, 127, 185, 0.5)),
-    url(../images/bg_banner1.jpg);
+    url(/src/assets/images/bg_banner1.jpg);
 }
 .color {
   color: #ffffff;
@@ -355,7 +364,7 @@ h6 {
       rgba(41, 127, 185, 0.856),
       rgba(41, 127, 185, 0.9)
     ),
-    url(../images/bg_banner1.jpg);
+    url(/src/assets/images/bg_banner1.jpg);
 }
 .review-content {
   max-width: 700px;
@@ -425,7 +434,7 @@ h6 {
 /*  footer*/
 #footer {
   background: linear-gradient(rgba(41, 127, 185, 0.7), rgba(41, 127, 185, 0.7)),
-    url(../images/bg_banner1.jpg);
+    url(/src/assets/images/bg_banner1.jpg);
   background-size: cover;
   background-position: center;
   padding-bottom: 0px;
@@ -462,7 +471,7 @@ h6 {
 /* contact box*/
 
 .contact-image {
-  background-image: url(/images/c2.jpg);
+  background-image: url(/src/assets/images/c2.jpg);
   min-height: 300px;
   padding: 0px;
   overflow: hidden;
