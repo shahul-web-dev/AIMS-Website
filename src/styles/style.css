@@ -115,7 +115,7 @@ span {
 /* Slider */
 .slide-1 {
   background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.3)),
-    url(/src/assets/images/aims\ bg-3.jpg);
+    url(../assets/images/Banner-1.jpeg);
   background-position: bottom !important;
   display: flex;
   justify-content: center;
@@ -467,10 +467,10 @@ h6 {
     margin-right: 10px;
   }
 }
-/* contact box*/
 
+/* contact box*/
 .contact-image {
-  background-image: url(/src/assets/images/c2.jpg);
+  background-image: url(../assets/images/Enquiry_Image.jpeg);
   min-height: 300px;
   padding: 0px;
   overflow: hidden;
