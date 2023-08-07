@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=REM:wght@400;500;600;700&display=swap");
 
-/* defult setting */
+/* Default Settings */
 body {
   font-family: "Barlow", sans-serif;
   line-height: 1.7;
@@ -139,15 +139,14 @@ span {
   align-items: center;
   text-align: center;
 }
-@media (max-width:990px){
-  .slide-1{
-    background-position:  right !important;
+@media (max-width: 990px) {
+  .slide-1 {
+    background-position: right !important;
   }
-  .slide-2{
+  .slide-2 {
     align-items: center;
   }
 }
-
 
 /* OWL carousel */
 .owl-prev,
