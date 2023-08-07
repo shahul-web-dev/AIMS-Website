@@ -227,7 +227,7 @@ span {
 .servies-box h4 {
   margin-bottom: 20px;
 }
-@media (min-width:768px) and (max-width:1200px){
+@media (min-width: 768px) and (max-width: 1200px) {
   .servies-box {
     height: 520px;
   }
@@ -439,7 +439,7 @@ h6 {
 .hr {
   color: #fff;
 }
-.text-contant .social-link a{
+.text-contant .social-link a {
   margin: auto;
   text-align: center;
   margin-right: 10px;
@@ -450,15 +450,14 @@ h6 {
   color: #fff;
   padding-bottom: 20px;
 }
-@media (max-width:428px){
-  .text-contant{
+@media (max-width: 428px) {
+  .text-contant {
     width: 100%;
     padding: 0px 20px;
   }
-  .text-contant .social-link a{
+  .text-contant .social-link a {
     margin-right: 10px;
-  } 
-  
+  }
 }
 /* contact box*/
 
