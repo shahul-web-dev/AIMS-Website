@@ -102,7 +102,7 @@ span {
   padding: 9px 24px;
   border: none;
   font-weight: 500;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #6528f7;
   color: #ffffff;
   transition: 0.3s ease;
@@ -132,7 +132,7 @@ span {
 }
 .slide-3 {
   background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.3)),
-    url(../src/assets/images/amis\ bg-4.JPG);
+    url(../assets/images/Banner_3.jpg);
   background-position: center !important;
   display: flex;
   justify-content: center;
@@ -216,16 +216,14 @@ span {
   margin: auto;
 }
 .servies-box {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   text-align: center;
   padding: 30px;
-  margin-bottom: 20px;
-  height: 450px;
+  margin:0px auto 30px;
+  height: 350px;
+  max-width: 350px;
   border-radius: 30px 0px;
-}
-.servies-box-1 {
-  margin-bottom: 0px;
+  position: relative;
 }
 .servies-box img {
   width: 100px;
@@ -235,10 +233,11 @@ span {
 .servies-box h4 {
   margin-bottom: 20px;
 }
-@media (min-width: 768px) and (max-width: 1200px) {
-  .servies-box {
-    height: 520px;
-  }
+.servies-box-enroll{
+  display: block;
+  position: absolute;
+  bottom: 60px;
+  left: 132px;
 }
 
 /* Project Slider */
