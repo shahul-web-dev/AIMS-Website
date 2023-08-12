@@ -132,7 +132,7 @@ span {
 }
 .slide-3 {
   background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.3)),
-    url(/src/assets/images/amis\ bg-4.JPG);
+    url(../src/assets/images/amis\ bg-4.JPG);
   background-position: center !important;
   display: flex;
   justify-content: center;
