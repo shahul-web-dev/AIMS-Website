@@ -132,7 +132,7 @@ span {
 }
 .slide-3 {
   background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.3)),
-    url(../assets/images/Banner_3.jpg);
+    url(../assets/images/Banner_3.JPG);
   background-position: center !important;
   display: flex;
   justify-content: center;
@@ -188,7 +188,7 @@ span {
 /* milestone */
 #milestone {
   background: linear-gradient(rgba(41, 127, 185, 0.5), rgba(41, 127, 185, 0.5)),
-    url(/src/assets/images/bg_banner1.jpg);
+    url(../assets/images/bg_banner1.jpg);
 }
 .color {
   color: #ffffff;
@@ -196,6 +196,8 @@ span {
 .color .display-4 {
   font-weight: 700;
 }
+
+
 
 /* Servies */
 .intro {
@@ -363,7 +365,7 @@ h6 {
       rgba(41, 127, 185, 0.856),
       rgba(41, 127, 185, 0.9)
     ),
-    url(/src/assets/images/bg_banner1.jpg);
+    url(../assets/images/bg_banner1.jpg);
 }
 .review-content {
   max-width: 700px;
@@ -433,7 +435,7 @@ h6 {
 /*  footer*/
 #footer {
   background: linear-gradient(rgba(41, 127, 185, 0.7), rgba(41, 127, 185, 0.7)),
-    url(/src/assets/images/bg_banner1.jpg);
+    url(../assets/images/bg_banner1.jpg);
   background-size: cover;
   background-position: center;
   padding-bottom: 0px;
