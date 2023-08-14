@@ -382,11 +382,17 @@ h6 {
 }
 .review-content h1 {
   font-size: 1.6em;
-  margin-top: 20px;
+  margin-top: 10px;
   color: #fff;
 }
+
 .review-content small {
   color: #badc58;
+}
+.review-content small .location-box{
+  color: red;
+  font-size: 20px;
+  padding-right: 10px;
 }
 .review-content p {
   color: #fff;
