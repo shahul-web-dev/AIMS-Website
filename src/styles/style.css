@@ -108,6 +108,7 @@ span {
   color: #ffffff;
   transition: 0.3s ease;
   font-family: "Noto Serif", serif;
+  border-radius: 20px;
 }
 .submit:hover {
   background-color: #3e14a0;
