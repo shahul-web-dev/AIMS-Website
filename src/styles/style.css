@@ -334,31 +334,30 @@ h6 {
   transition: all 0.3s ease;
 }
 .overlay-social-link a{
-  width: 40px ;
-  height: 40px;
-  font-size: 30px;
-  background-color: rgba(255,255,255,0.3);
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  border-radius: 50%;
-  margin-right: 10px;
-  transition: 0.2s ease;
+  width: 35px;
+    height: 35px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius:50%;
+    margin-right: 10px;
 }
 .overlay-social-link a:hover{
-  background-color: #ffffff;
   color: #2980b9;
+    background-color: #ffffff;
 }
 .team-member .overlay-social-link{
   position: absolute;
-  left: 40%;
-  top: 50%;
-  transform: translate(-60% -50%);
-  transition: all 0.3s ease;
-  opacity: 0;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+    opacity: 0;
 }
-.team-member .overlay-social-link:hover{
+.team-member:hover  .overlay-social-link{
   opacity: 1;
   top: 50%;
 }
