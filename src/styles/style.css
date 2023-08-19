@@ -105,7 +105,6 @@ span {
   background-color: #6528f7;
   color: #ffffff;
   transition: 0.3s ease;
-  font-family: "Roboto", sans-serif !important;
 }
 .submit:hover {
   background-color: #3e14a0;
@@ -314,21 +313,9 @@ h6 {
   opacity: 0;
   transition: all 0.3s ease;
 }
-.team-member .social-link {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 0.3s ease;
-  opacity: 0;
-}
 .team-member:hover .overlay {
   opacity: 1;
   top: 0px;
-}
-.team-member:hover .social-link {
-  opacity: 1;
-  top: 50%;
 }
 .team-name {
   margin-top: 10px;
@@ -453,11 +440,6 @@ h6 {
 .hr {
   color: #fff;
 }
-.text-contant .social-link a {
-  margin: auto;
-  text-align: center;
-  margin-right: 10px;
-}
 
 .copyright {
   text-align: center;
@@ -468,9 +450,6 @@ h6 {
   .text-contant {
     width: 100%;
     padding: 0px 20px;
-  }
-  .text-contant .social-link a {
-    margin-right: 10px;
   }
 }
 
